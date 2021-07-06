@@ -1,0 +1,93 @@
+/*rtl:Amiri, Georgia, "Times New Roman", serif*/
+a {
+  text-decoration: underline;
+}
+
+nav {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.article-header {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.shadow-sm {
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.8);
+          box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.8);
+}
+
+.large-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.large-logo:hover {
+  text-decoration: none;
+}
+
+.nav-scroller {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-scroller a {
+  display: inline-block;
+}
+
+.jumbotron-content {
+  max-width: 50%;
+}
+
+.jumbotron-content h1 {
+  font-weight: 300;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.card-title {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
+
+.card-content {
+  width: 70%;
+}
+
+.img-thumbnail {
+  width: 200px;
+  height: 250px;
+}
+
+.bridge-content {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.blog-footer {
+  background-color: #f9f9f9;
+}
+
+.dir-pagination {
+  border-radius: 20px;
+}
+
+@media (max-width: 813px) {
+  .jumbotron-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-content {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=all.css.map */
